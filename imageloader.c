@@ -77,5 +77,10 @@ void writeData(Image *image)
 //Frees an image
 void freeImage(Image *image)
 {
+	int rows = image->rows;
+	for (int i = 0; i < rows; i++) {
+		free(image->image[i]);
+	}
+	free(image->image);
 	free(image);
 }

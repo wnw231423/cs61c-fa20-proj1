@@ -1,5 +1,5 @@
-- CS61C Project 1
--- Thoughts after finishing:
+# CS61C Project 1
+## Thoughts after finishing:
 1. Memery management:
     1. Initialize one variable instantly after you declare a variable.(Tips: when declare a `struct`, initialize all of its variables!)
     2. A `malloc`, a `free`. Also, don't forget to free the variables of a struct.

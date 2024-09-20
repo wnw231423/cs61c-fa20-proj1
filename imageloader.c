@@ -67,7 +67,7 @@ void writeData(Image *image)
 				printf("   ");
 			}
 			printf("%3d %3d %3d", image->image[i][j].R, image->image[i][j].G, image->image[i][j].B);
-			if (j == image->rows - 1) {
+			if (j == (image->cols - 1)) {
 				printf("\n");
 			}
 		}
